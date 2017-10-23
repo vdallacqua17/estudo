@@ -2,6 +2,7 @@
 <html lang="pt-BR">
 	<head>
 		<meta charset="utf-8">
+		<!-- Viewport - Scala para multitelas -->
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>NodeProp - Especializada em soluções Digitais</title>
 		<meta name="description" content="Agência especializada em Marketing Digital, Criação de aplicativos Mobile.">
@@ -9,16 +10,19 @@
 		<meta name="robots" content="index, follow">
 		<meta name="author" content="Vinicius Dallacqua">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<link rel="stylesheet" href="https://www.youtube.com/redirect?v=7zuRb_YaUww&event=video_description&q=https%3A%2F%2Fmaxcdn.bootstrapcdn.com%2Ffont-awesome%2F4.7.0%2Fcss%2Ffont-awesome.min.css&redir_token=C9OOEEK8dq5SXLwm0lWKa1TwIFZ8MTUwODc3MjA4OUAxNTA4Njg1Njg5">
+		<!-- Link para baixar as fontes do fontawesome.com -->
+		<script src="https://use.fontawesome.com/05894a67a1.js"></script>
+		<!-- Fonte do Google LATO -->
 		<link href="https://fonts.googleapis.com/css?family=Lato:400,300,700" rel="stylesheet">
 		<link rel="icon" href="img/icon.png">
 	</head>
 	<body>
+		<!--HEADER-->
 		<header class="cabecalho">
 			<a href="index.html>"><h1 class="logo">NodeProp - Especializada em soluções Digitais</h1> </a>
 			<button class="btn-menu"><i class="fa fa-bars fa-lg"> </i></button>
 			<nav class="menu">
-				<a class="btn-close">x</a>
+				<a class="btn-close"><i class="fa fa-times"></i></a>
 				<ul>
 					<li><a href="a">Home</a></li>
 					<li><a href="a">Clientes</a></li>
@@ -29,6 +33,7 @@
 				</ul>
 			</nav>
 		</header>
+		<!-- BANNER -->
 		<div class="banner">
 			<div class="title">
 				<h2> OUSE INOVAR!</h2>
@@ -39,6 +44,43 @@
 				<button class="btn-sobre"> Sobre <i class="fa fa-question-circle"></i></button>
 			</div>
 		</div>
+		<!-- MAIN com os servicos que o site proporciona -->
+		<main class="servicos">
+			<article class="servico">
+				<a href="#"><img src="img/criacoes.jpg" alt="Campanhas publicitárias"></a>
+				<div class="inner">
+					<a href="#"> Campanhas Publicitárias</a>
+					<h4> Impressos, VTs e Jingles</h4>
+					<p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.</p>
+				</div>
+			</article>
+			<article class="servico">
+				<a href="#"><img src="img/md.jpg" alt="Marketing Digital"></a>
+				<div class="inner">
+					<a href="#"> Marketing Digital</a>
+					<h4> Administração de redes sociais</h4>
+					<p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.</p>
+				</div>
+			</article>
+			<article class="servico">
+				<a href="#"><img src="img/cs.jpg" alt="Criação de Sites"></a>
+				<div class="inner">
+					<a href="#"> Criação de Sites</a>
+					<h4> Sites Administráveis</h4>
+					<p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.</p>
+				</div>
+			</article>
+		</main>
+		<!-- NEWSLETTER -->
+		<section class="newsletter">
+			<h2>Inscreva-se Agora!</h2>
+			<h3>Recebida novidades, dicas e muito mais!</h3>
+			<form>
+				<input type="email" name="email" placeholder="Seu email">
+				<button> Cadastrar </button>
+			</form>
+		</section>
+		<!-- JQUERY -->
 		<script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
 		<script>
 			$(".btn-menu").click(function(){
